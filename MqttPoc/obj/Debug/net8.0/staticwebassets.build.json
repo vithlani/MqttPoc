@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "yiox9R7LAzQkvFGDj+I36ztjfnkWrNlM+fmEYaUo8WM=",
+  "Source": "MqttPoc",
+  "BasePath": "_content/MqttPoc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

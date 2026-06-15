@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "T6tixWCTGJs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jvithlk\\source\\repos\\MqttPOC\\MQTTPublisher\\MQTTPublisher\\MqttPublisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jvithlk\\.nuget\\packages\\mqttnet\\5.1.0.1559\\mqttnet.5.1.0.1559.nupkg.sha512"
+  ],
+  "logs": []
+}

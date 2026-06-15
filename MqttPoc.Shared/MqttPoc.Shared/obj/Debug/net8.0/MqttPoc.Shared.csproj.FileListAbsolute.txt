@@ -1,0 +1,12 @@
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\bin\Debug\net8.0\MqttPoc.Shared.deps.json
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\bin\Debug\net8.0\MqttPoc.Shared.dll
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\bin\Debug\net8.0\MqttPoc.Shared.pdb
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\MqttPoc.Shared.csproj.AssemblyReference.cache
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\MqttPoc.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\MqttPoc.Shared.AssemblyInfoInputs.cache
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\MqttPoc.Shared.AssemblyInfo.cs
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\MqttPoc.Shared.csproj.CoreCompileInputs.cache
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\MqttPoc.Shared.dll
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\refint\MqttPoc.Shared.dll
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\MqttPoc.Shared.pdb
+C:\Users\jvithlk\source\repos\MqttPoc\MqttPoc.Shared\MqttPoc.Shared\obj\Debug\net8.0\ref\MqttPoc.Shared.dll

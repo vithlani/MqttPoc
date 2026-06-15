@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|c:\\users\\jvithlk\\source\\repos\\mqttpoc\\mqttpoc\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|solutionrelative:mqttpoc\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|c:\\users\\jvithlk\\source\\repos\\mqttpoc\\mqttpoc\\repositories\\telemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|solutionrelative:mqttpoc\\repositories\\telemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12151101-1225-93C5-6E8E-2E9EA6CA5E82}|MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService.csproj|c:\\users\\jvithlk\\source\\repos\\mqttpoc\\mqttsubscriberworkerservice\\mqttsubscriberworkerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12151101-1225-93C5-6E8E-2E9EA6CA5E82}|MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService.csproj|solutionrelative:mqttsubscriberworkerservice\\mqttsubscriberworkerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12151101-1225-93C5-6E8E-2E9EA6CA5E82}|MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService.csproj|c:\\users\\jvithlk\\source\\repos\\mqttpoc\\mqttsubscriberworkerservice\\mqttsubscriberworkerservice\\services\\telemetryprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12151101-1225-93C5-6E8E-2E9EA6CA5E82}|MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService.csproj|solutionrelative:mqttsubscriberworkerservice\\mqttsubscriberworkerservice\\services\\telemetryprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|c:\\users\\jvithlk\\source\\repos\\mqttpoc\\mqttpoc\\repositories\\idevicetelemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|solutionrelative:mqttpoc\\repositories\\idevicetelemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|c:\\users\\jvithlk\\source\\repos\\mqttpoc\\mqttpoc\\repositories\\itelmetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|solutionrelative:mqttpoc\\repositories\\itelmetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|c:\\users\\jvithlk\\source\\repos\\mqttpoc\\mqttpoc\\repositories\\devicetelemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDE589-FA8C-430D-A5B6-DF3E22426E8F}|MqttPOC\\MqttPoc.csproj|solutionrelative:mqttpoc\\repositories\\devicetelemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 189,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TelemetryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\TelemetryRepository.cs",
+              "RelativeDocumentMoniker": "MqttPoc\\Repositories\\TelemetryRepository.cs",
+              "ToolTip": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\TelemetryRepository.cs",
+              "RelativeToolTip": "MqttPoc\\Repositories\\TelemetryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:04:28.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITelmetryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\ITelmetryRepository.cs",
+              "RelativeDocumentMoniker": "MqttPoc\\Repositories\\ITelmetryRepository.cs",
+              "ToolTip": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\ITelmetryRepository.cs",
+              "RelativeToolTip": "MqttPoc\\Repositories\\ITelmetryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:04:23.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDeviceTelemetryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\IDeviceTelemetryRepository.cs",
+              "RelativeDocumentMoniker": "MqttPoc\\Repositories\\IDeviceTelemetryRepository.cs",
+              "ToolTip": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\IDeviceTelemetryRepository.cs",
+              "RelativeToolTip": "MqttPoc\\Repositories\\IDeviceTelemetryRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:04:12.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Program.cs",
+              "RelativeDocumentMoniker": "MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Program.cs",
+              "ToolTip": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Program.cs",
+              "RelativeToolTip": "MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:00:58.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelemetryProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Services\\TelemetryProcessor.cs",
+              "RelativeDocumentMoniker": "MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Services\\TelemetryProcessor.cs",
+              "ToolTip": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Services\\TelemetryProcessor.cs",
+              "RelativeToolTip": "MqttSubscriberWorkerService\\MqttSubscriberWorkerService\\Services\\TelemetryProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:03:18.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DevicesController.cs",
+              "DocumentMoniker": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Controllers\\DevicesController.cs",
+              "RelativeDocumentMoniker": "MqttPoc\\Controllers\\DevicesController.cs",
+              "ToolTip": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Controllers\\DevicesController.cs",
+              "RelativeToolTip": "MqttPoc\\Controllers\\DevicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:02:38.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeviceTelemetryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\DeviceTelemetryRepository.cs",
+              "RelativeDocumentMoniker": "MqttPoc\\Repositories\\DeviceTelemetryRepository.cs",
+              "ToolTip": "C:\\Users\\jvithlk\\source\\repos\\MqttPoc\\MqttPoc\\Repositories\\DeviceTelemetryRepository.cs",
+              "RelativeToolTip": "MqttPoc\\Repositories\\DeviceTelemetryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:03:49.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
