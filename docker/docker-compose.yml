@@ -1,0 +1,107 @@
+version: '3.8'
+
+services:
+  # MQTT Broker
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_logs:/mosquitto/log
+    environment:
+      - MOSQUITTO_LOGLEVEL=info
+    networks:
+      - mqtt-network
+    healthcheck:
+      test: ["CMD", "mosquitto_pub", "-h", "localhost", "-t", "health", "-m", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # SQL Server Database
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Your@Password123
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - mqtt-network
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "Your@Password123", "-Q", "SELECT 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # MQTT Publisher
+  mqtt-publisher:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.publisher
+    depends_on:
+      mosquitto:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - MQTT_Broker=mosquitto
+      - MQTT_Port=1883
+    networks:
+      - mqtt-network
+    restart: unless-stopped
+
+  # MQTT Subscriber (Worker Service)
+  mqtt-subscriber:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.subscriber
+    depends_on:
+      mosquitto:
+        condition: service_healthy
+      sqlserver:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - MQTT_Broker=mosquitto
+      - MQTT_Port=1883
+      - ConnectionStrings__TelemetryDb=Server=sqlserver,1433;Database=TelemetryPOC;User Id=sa;Password=Your@Password123;
+    networks:
+      - mqtt-network
+    restart: unless-stopped
+
+  # API Service
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__TelemetryDb=Server=sqlserver,1433;Database=TelemetryPOC;User Id=sa;Password=Your@Password123;
+    networks:
+      - mqtt-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mosquitto_data:
+  mosquitto_logs:
+  sqlserver_data:
+
+networks:
+  mqtt-network:
+    driver: bridge

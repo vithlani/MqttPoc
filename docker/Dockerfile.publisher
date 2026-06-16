@@ -1,0 +1,26 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copy solution and projects
+COPY MqttPoc.sln .
+COPY src/MqttPoc.Publisher/ src/MqttPoc.Publisher/
+COPY src/MqttPoc.Shared/ src/MqttPoc.Shared/
+
+# Restore and build
+RUN dotnet restore "MqttPoc.sln"
+RUN dotnet build "src/MqttPoc.Publisher/MqttPoc.Publisher.csproj" -c Release -o /app/build
+
+# Publish stage
+FROM build AS publish
+RUN dotnet publish "src/MqttPoc.Publisher/MqttPoc.Publisher.csproj" -c Release -o /app/publish
+
+# Runtime stage
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
+WORKDIR /app
+COPY --from=publish /app/publish .
+
+ENV MQTT_Broker=localhost
+ENV MQTT_Port=1883
+
+ENTRYPOINT ["dotnet", "MqttPoc.Publisher.dll"]
